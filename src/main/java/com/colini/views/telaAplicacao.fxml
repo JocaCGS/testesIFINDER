@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="paneTela" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="480.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.colini.controllers.telaAplicacaoController">
+   <children>
+      <ImageView fx:id="imageImagemPerfil" fitHeight="286.0" fitWidth="427.0" layoutX="28.0" layoutY="109.0" pickOnBounds="true" preserveRatio="true" style="-fx-border-radius: 15;">
+         <effect>
+            <Blend />
+         </effect></ImageView>
+      <AnchorPane fx:id="anchorpaneAnchor" layoutX="140.0" layoutY="420.0" prefHeight="372.0" prefWidth="249.0">
+         <children>
+            <Label fx:id="labelLabel1" alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" layoutX="-30.0" layoutY="44.0" prefHeight="75.0" prefWidth="258.0" style="-fx-font-family: Roboto;" text="Clique Para">
+               <font>
+                  <Font size="35.0" />
+               </font></Label>
+            <Button fx:id="btnTrocar" layoutX="5.0" layoutY="275.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="38.0" prefWidth="88.0" style="-fx-background-color: #940718; -fx-font-family: Roboto; -fx-background-radius: 15; -fx-border-radius: 15;" text="Deslike" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <Button fx:id="btnTrocar2" layoutX="108.0" layoutY="274.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="40.0" prefWidth="88.0" style="-fx-background-color: #34eb49; -fx-font-family: Roboto; -fx-background-radius: 15; -fx-border-radius: 15;" text="Like" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Label fx:id="labelLabel2" alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" layoutX="-36.0" layoutY="141.0" prefHeight="75.0" prefWidth="258.0" style="-fx-font-family: Roboto;" text="Ver Perfil">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <ImageView fx:id="imageFoguinho" fitHeight="75.0" fitWidth="131.0" layoutX="111.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="/images/fogo.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="labelIFinder" alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" layoutX="145.0" layoutY="7.0" prefHeight="75.0" prefWidth="258.0" style="-fx-font-family: Roboto;" text="IFinder">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
